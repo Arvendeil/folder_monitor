@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:fmt="http://java.sun.com/jsp/jstl/fmt" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<servlet>
+		<servlet-name>FolderMonitor</servlet-name>
+		<display-name>ServleT</display-name>
+		<servlet-class>com.epam.nulp.servlet.ServleT</servlet-class>
+		<jsp-file>/Books.jsp</jsp-file>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FolderMonitor</servlet-name>
+		<url-pattern>/books</url-pattern>
+	</servlet-mapping>
+</web-app>

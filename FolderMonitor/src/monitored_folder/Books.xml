@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+	xs:noNamespaceSchemaLocation="src/monitored_folder/BooksSchema.xsd">
+	<book>
+		<author>FedunaM</author>
+		<title>Java</title>
+		<genre>Story</genre>
+		<price>200.10</price>
+		<year>2010</year>
+		<publication>10000</publication>
+		<review>An amazing story of nothing.</review>
+	</book>
+
+	<book>
+		<author>StochanskyjY</author>
+		<title>ServletS</title>
+		<genre>Story</genre>
+		<price>100.50</price>
+		<year>2012</year>
+		<publication>2000</publication>
+		<review>Story about rabbits.</review>
+	</book>
+
+	<book>
+		<author>KolbyhT</author>
+		<title>JSP</title>
+		<genre>History</genre>
+		<price>110.50</price>
+		<year>2011</year>
+		<publication>5000</publication>
+		<review>Ololo story.</review>
+	</book>
+	
+	<book>
+		<author>ABC</author>
+		<title>qrtqqy</title>
+		<genre>History</genre>
+		<price>120.50</price>
+		<year>2021</year>
+		<publication>5000</publication>
+		<review>story.</review>
+	</book>
+</books>
